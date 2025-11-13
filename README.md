@@ -33,6 +33,12 @@ Code and files for Berkeley AI course Practical Application 3 for Module 17
 ###    All 4 models had higher accuracy scores than the baseline model.
 ###    However, some models such as Decision Tree and SVM appeared to be substantially overfit.
 ### c. Used Grid Search and scaling to find more optimal parameters for the four models.
-### d. 
-
-
+### d. Tuning KNN did not result in significant accuracy score improvement, though it appears to correct for overfitting of the training data.
+### e. The optimized Decision Tree and Logistic Regression models had very similar accuracy scores.
+### f. Technical difficulties prevented proper tuning of the basic SVM model.
+##
+## 4. Overall Findings
+### a. Logistic Regression and Decision Tree provide the highest accuracy scores for the optimized models.
+### b. The coefficients with the greatest predictive power overlap between the Logistic Regression and Decision Tree models.
+###     In particular, the outcome of the previous marketing campaign was a strong
+###     positive predictor of a client subscribing to a term deposit project in a more recent campaign.
